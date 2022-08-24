@@ -7,24 +7,24 @@ $ apt search openblas
 $ sudo apt install libopenblas-dev
 ```
 Then:
-``` Linux
+```Linux
 $ sudo update-alternatives --config libblas.so.3
 ```
 Or:
-``` Linux
+```Linux
 sudo update-alternatives --remove  libblas.so.3 /usr/lib/x86_64-linux-gnu/libopenblas.so.0
 ```
 
 ## Install SciPy and NumPy
 Go to your Python environment:
-``` Linux
+```Linux
 pip install scipy
 pip install numpy
 ```
 
 ## Install gensim
 
-``` Linux
+```Linux
 pip install --upgrade gensim
 ```
 

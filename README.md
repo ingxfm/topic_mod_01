@@ -1,7 +1,7 @@
 # topic_mod_01
 
 ## Install OpenBLAS on Linux:
-``` Linux
+```Linux
 $ sudo apt update
 $ apt search openblas
 $ sudo apt install libopenblas-dev
